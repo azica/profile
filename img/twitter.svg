@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 28" width="33" height="28">
+	<defs>
+		<image width="27" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAZCAYAAADAHFVeAAAB70lEQVRIS73WT6hNURTH8c8bGRiQib8TIVFCMjExMFBCFEpI8meiFPkzZGKAlFImmPAICUVhQiZi5E+YkImICQOUySut194693TOu+c8p7fqdM8597fWd691197rDhhDG0isSfg+Su56LMRyPMEr3C7FmoWhDNuCF3jXAjgV57Cuwuc+ViEWEtcQdmTYIBZhUwvgA6xssLiXCfg5wz5hBt5iHx71CbITFxqA7uApFuBmhn3EzILzCRzHz5qA8ZtUla8o/43x6cU2DGbYeewqBY70L+MavpS++4GJDTILyXZcipsM24yrNc7RpQF8ljrtNeKK0jSxzBiGzU9NcQoHm3i30HzDlKzP1Dd4mJokOrIriwrEHhy2DIvOig4Li9VM7ogW3Rj7rAe2Gnc7AhTD7MeZMiyer6dN3SVzMaKrezLLz6exF+M6IEal1hbj/GvLBNiAuUmwtbTR2/LX4F4dLN5HZgfaRq3Q9zRGXRnj/Q1s/A/gV6yoOtCLZSzGP4bdmDYKaBx7F6v86mBZewSHEcO1iYX+ZJ2wDhZlPISlTQhJE5UYcewE7GgST8dszEnHVlPOFZzF834OObM9aT4tw4R+TviFW2kaxF+ARlYuY2S2JGU3L42RGCUf8D59PkYA/jQiFET9GqRtvBH1Ywr7C5UoUY2IKc70AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Follow me">
+		<g id="Twitter">
+			<use id="twitter-logo-silhouette" href="#img1" transform="matrix(2.538,0,0,2.583,0,-1)"/>
+		</g>
+	</g>
+</svg>

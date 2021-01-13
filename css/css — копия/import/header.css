@@ -1,0 +1,25 @@
+.header svg {
+  fill: green;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__right-indent {
+  width: 66%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 66%;
+          flex: 0 66%;
+}
+
+.header__left-indent {
+  width: auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 auto;
+          flex: 0 auto;
+}
+
+/*# sourceMappingURL=../../sourcemaps/import/header.css.map */
