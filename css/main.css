@@ -1020,6 +1020,32 @@ button.swiper-pagination-bullet {
   backface-visibility: hidden;
 }
 
+@-webkit-keyframes slideBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @font-face {
   font-family: 'DroidSerif';
   src: url("fonts/DroidSerif-Regular.ttf") format("ttf");
@@ -1153,6 +1179,19 @@ section {
   .section__title {
     font-size: calc(40px + 20 * (100vw / 1460));
   }
+}
+
+.section__title._active {
+  -webkit-animation-name: slideBottom;
+          animation-name: slideBottom;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
 }
 
 .section__title span {
@@ -1912,6 +1951,19 @@ p {
   }
 }
 
+.main .main__subtitle:nth-child(1)._active {
+  -webkit-animation-name: slideBottom;
+          animation-name: slideBottom;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
 .main .main__subtitle span {
   position: relative;
   display: inline-block;
@@ -1933,6 +1985,19 @@ p {
 
 .main .main__subtitle-clr {
   color: #ac752f;
+}
+
+.main .main__subtitle-clr._active {
+  -webkit-animation-name: slideBottom;
+          animation-name: slideBottom;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 @media (max-width: 768px) {
@@ -1960,6 +2025,19 @@ p {
   .main__title {
     font-size: calc(70px + 115 * (100vw / 1460));
   }
+}
+
+.main__title._active {
+  -webkit-animation-name: slideBottom;
+          animation-name: slideBottom;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
 }
 
 .about__inner {
@@ -2177,6 +2255,12 @@ p {
   text-align: left;
 }
 
+@media (max-width: 580px) {
+  .gallery__inner .section__title {
+    margin-left: 10px;
+  }
+}
+
 .gallery__images {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2186,16 +2270,30 @@ p {
   text-align: left;
 }
 
+@media (max-width: 580px) {
+  .gallery__images {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .gallery__left-indent {
   width: 34%;
   overflow: hidden;
+}
+
+@media (max-width: 580px) {
+  .gallery__left-indent {
+    width: 100%;
+  }
 }
 
 .gallery__left-img:nth-child(1) {
   padding: 70px 12.5px 12.5px 70px;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 768px) {
   .gallery__left-img:nth-child(1) {
     padding: 10px;
   }
@@ -2212,22 +2310,22 @@ p {
   padding: 12.5px;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 768px) {
   .gallery__img {
     padding: 10px;
   }
 }
 
 .gallery__img img {
-  -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+          transform: scale(0.7);
 }
 
 .gallery__img._active img {
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 
 .gallery__img:hover .gallery__img-content {
@@ -2236,6 +2334,12 @@ p {
 
 .gallery__right-indent {
   width: 66%;
+}
+
+@media (max-width: 580px) {
+  .gallery__right-indent {
+    width: 100%;
+  }
 }
 
 .gallery__right-img:nth-child(1) {
@@ -2255,7 +2359,7 @@ p {
   position: absolute;
   top: 0;
   left: -100%;
-  width: 70%;
+  width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 50px 20px 20px 50px;
