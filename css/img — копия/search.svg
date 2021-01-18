@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 18" width="17" height="18">
+	<defs>
+		<image width="17" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAABIElEQVQ4T7WTT07CUBCHv5GSuO0VyhHKEeAEhpbEHY0l8QJ4BLyAiZV2Z2KbeAJ7BDmCXIGtC+SZ19IEHlgK6lvOm/nm32+EY+/5wca6dAu31eec69ulGSI/MtKkB2oC9AyfHOQef5RX9sOQLA5RPKJYICqCi3kZsHZREiI4CGO8INLWfcjLbIBIhiJiGIwPVprOJiDTCrQLKfv/AJXjB17tuNJkCoRYdHchVQZLOlyNFrWQ18RhpXTCOwMS6zZchkHn2NKK/zR+B5Ym5K349IN+Q0jh/w+VVKv91Uz+ZDvFsDYaOFsn2ZOLapXDRdmnK3YbIF99VMs+7XZMgHezuRWg0RXXARqJReskjTNggKy7bFfQEFCKTZfbbjvnAjTkG1a3kWi+bmexAAAAAElFTkSuQmCC"/>
+	</defs>
+	<g id="header">
+		<g id="nav-menu">
+			<g id="search">
+				<g id="icon">
+					<use id="active" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

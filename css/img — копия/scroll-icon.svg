@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 57" width="58" height="57">
+	<defs>
+		<image width="58" height="57" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA5CAYAAABnLziGAAAFQ0lEQVRoQ9WbXW7bOBDH/7SdZl/dIyRHSI5Qn2BhO8C+xd0Y2AvER0gusEC9Td4WqG3sCeojVEdIjlC/1q0tFkP6Q5SGH5KoTSqgKFBTI/44HxwOpwJNP7PHd/oT6QX/qVai/n14vWxyKiK68E8f+xCtC0ASoAXO+tUEEEvINMHV+0XMucUB/e/xDBvcAPRHduNMUKwATNHBFL9fP9eVWQ+UAH/IWwgF2dwjMcWJuK8DXA3037+76Px2C8jbEnTki6Sl7EPaL2HecoLN9yn++CsvxzuN8qDzfy6QtuYQOLNKl3iGEAvlayetxKsJZRnphfJtKfte2a10gMGfOogFPuVA5w83kPjgAJwqwLoRVC/mDYToW31eYIzBaBrIiXDQTw8frL4YwYfYCXtdRNxjeD0JgQ0DtUMmEOm4rBmFTMwYQxqWLbKkoj/TIl+Nxj6ZflArZPhq+iYR/Pvs8Y4NgAGwblCb4JL+EQwSMtAaJ+QEw/f3NhF2UJvAl4TcUyhTbn8uBCrH3HjQCoJClBF1jEo1xdyUKVYQ2x4XM3jQ2cOXguO/Bk3mV4q3ugTD0WV+aBF09vEWEHfGwABnj6qtMsLYYFn0VxNU71tPhu1TlrNdX1ZJu8rMt/JYmnP79IuZTYkVNt/Os3M2QTltQvRqZzqVKQJfVGde+dkcbWr1CMppE1hiOOoFfu5lh80eCHR3yKepmFo9gv6q2twvL6fVTADNgBYi7a+jzQNsgeEQgTWoqhDIJ8P2XuN24nMObrvpiHM6JmpQbsBm/TYo0pLJbL4lQWN9E+V+JyVst92gg4OKM6dfOYVp0OJeFGa2h8TCnpFUYTu8Yygg8BCRT3Z2OYAGLWRC7gRZv5NPLCLDclYm0kuvZotBVSltDyrNTEgOvOVGNv2KBGs7UOz8zWklXA48HAkBzq5DkwQ2/aoJW/fUxG0zCtTyQ7BvxYStC0mTtiiuPigfzHRmYjkysYsYA/K4n5quCNGLA1oXNiakDq4NglaFjQ35v4CWhW0C0gqqS4lUUTg+IWHcFa1CAlRTkFw62xHn/D4aur1UhQVdPTAV/xj5tXV7Uap+/GpW1AIyo5D9x6ZZ7moxBiSXsVGF5Gp00Kh5aI1ZI3JdZewXKxakI2/fmW4ub92tQojSgsa4YGNCatAns36krXMHytRcQhLoIMrdIA42NiQXWHfxJlNhyPtp4LGoKmxsSB1rcnczYoXh9Vv66QhaWPHjoDIs3rG06u32yns57BXEDMgH1UysOYJyam9i1asAhLzjOb/m6rrukmHI915kTECpNgfKFYIb8NXYqxFQqmXuXvJaVa78eqv1bKQtFt6LoFyu+FrvX9h7FwBMrm65NmRu1IAEm3WvsbJmFXPmrjfBp6/2G+/CXQaAmKlhFbDsO3y2ZS3T2kF17YVy4HwnyBKb9eDFNKvN9Y5pBXJanLtZw3bFT2bcEYNGNn2Xpq2L769P+dtvrLBiBZmOvfXfuia6f1/3/c6LnWR+SDMFdE3Irll6a4GOmDSmXWcHaRhkOCiN1NsOdYHw3Zix2+TU99I+0KIuUq4HuJT7+E03q2ntI9Sq1ncYwAICS/xYL0oHLJJ/ctqHVDfX7m9s1uMy8suBHvyF9lnrSmfXIIFEAiGprXUFKcxOapl21SFZijMIZSme3l0yVTkp09W5n0w1UHrbHuZjhR9TDrnGdj0po8WsgOqgeylNt5tH8v36oHtg5b9vbgBqJvaZoFfpS0Auq7aVc9LjgeaDVvvNO12kEuR3Xf13PnrS/4SQu157Sf78jO33ZVXzdC3fT1ou/nxUwvMBAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="home">
+		<g id="images">
+			<g id="items">
+				<g id="start">
+					<use id="scroll-icon" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
