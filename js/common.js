@@ -1,7 +1,6 @@
 $(document).ready(function(){
   var swiper = new Swiper('.js-articles__slider', {
     slidesPerView: 1,
-
     breakpoints: {
     325: {
         slidesPerView: 1,
@@ -39,7 +38,7 @@ $(document).ready(function(){
     }
     }
   });
-
+  $("img").addClass('anim-items anim-hide');
   // ANIMATION 
   const animItems = document.querySelectorAll('.anim-items');
   if(animItems.length > 0) {
@@ -80,4 +79,7 @@ $(document).ready(function(){
 
   
 })
+
+
+
 
